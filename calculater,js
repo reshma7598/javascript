@@ -1,0 +1,29 @@
+// Simple Calculator in JavaScript
+
+function calculate(operation, number1, number2) {
+    let result;
+    switch (operation) {
+      case '+':
+        result = number1 + number2;
+        break;
+      case '-':
+        result = number1 - number2;
+        break;
+      case '*':
+        result = number1 * number2;
+        break;
+      case '/':
+        result = number1 / number2;
+        break;
+      default:
+        result = 'Invalid operator';
+    }
+    return result;
+  }
+  
+  const operation = '+'; // Corrected spelling
+  const number1 = 10;
+  const number2 = 5;
+  const output = calculate(operation, number1, number2); // Corrected variable name
+  console.log(output);
+  
