@@ -21,9 +21,9 @@ function calculate(operation, number1, number2) {
     return result;
   }
   
-  const operation = '+'; // Corrected spelling
+  const operation = '+'; 
   const number1 = 10;
   const number2 = 5;
-  const output = calculate(operation, number1, number2); // Corrected variable name
+  const output = calculate(operation, number1, number2);
   console.log(output);
   

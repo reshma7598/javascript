@@ -1,4 +1,4 @@
-let Marks = 80;
+let Marks = 54;
 let grade ;
 if  (Marks >= 90 && Marks <= 100) {
 grade = 'A';
@@ -11,6 +11,5 @@ grade = 'D';
 }else{
 grade = 'F';
 }
-
 
 console.log("the grade is" , grade);
