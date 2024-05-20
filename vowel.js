@@ -105,7 +105,7 @@ console.log(dd);
 // Array.filter(i)=>{
 
 // }
-let fi=[1,2,4,4,6]
+let fi=[1,2,4,3,6]
 let ff=fi.filter((j)=>{
     return j%2!==0
 })
@@ -116,7 +116,7 @@ console.log(ff);
 
 // }
 
-let fin=[12,3,4,6,6]
+let fin=[1,3,14,6,6]
 let ii=fin.find((x)=>{
     return x%2==0
 })

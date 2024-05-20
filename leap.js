@@ -1,5 +1,5 @@
 // leap year
-let year=505
+let year=40
 if ((year % 4 == 0) ) {
     console.log(year ,"is a leap year");
 }
